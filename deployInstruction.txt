@@ -1,0 +1,12 @@
+
+
+running blockchain locally steps
+
+1.npx hardhat node                                         .........spinnig local blockchain
+2.npx hardhat run scripts/deploybloodbank.js --network localhost ........ deploy smart contract to local blockchain
+3.1 case 2:local blockchain shut down 
+    just update the address where it was deployed
+    there is n need to update the update the abi
+3.2 case 1:changed the smart contract
+    copy the new ABI and replace it with the new one
+    update the address where the new smart contract is deployed
