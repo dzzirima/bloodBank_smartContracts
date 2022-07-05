@@ -6,12 +6,14 @@ struct Donation{
       
       string donation_id;
       string donar_name;
-      string donation_date;
-      string donation_executed_date;
-      string donation_amount;
+      uint256 donation_date;
+      uint256 donation_executed_date;
+      uint256 donation_amount;
       string donation_status;
       string disease;
       string[] steps;
+      uint256 weight;
+
   
   
     }
@@ -25,8 +27,8 @@ struct User{
     string firstname;
     string lastname;
     string bloodGroup;
-    string weight;
-    string joinDate;
+    uint256 weight;
+    uint256 joinDate;
 
     /*** List  of all users who has access to medical records */
 
