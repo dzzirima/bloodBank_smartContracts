@@ -12,9 +12,9 @@ contract BloodBank{
     //mapping for users and their role
 
     mapping(string => User) public userIdMappings;
-    mapping(string => Donation) Donations;
-    mapping(string =>uint256 ) BloodGroupDonations;
-    mapping (string => Donation[]) userDonations;
+    mapping(string => Donation)public Donations;
+    mapping(string =>uint256 ) public BloodGroupDonations;
+    mapping (string => Donation[]) public userDonations;
   
     User[] userArray;
     Donation[] DonationsArray;
